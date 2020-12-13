@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "react-router-dom": "^5.2.0",
+    "sequelize": "^6.3.5"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
