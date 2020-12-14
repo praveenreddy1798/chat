@@ -1,0 +1,90 @@
+$blue: #166FE5;
+$green: #36A420;
+$gray-600: rgb(245, 245, 245);
+$border-radius: 0px;
+$paragraph-margin-bottom: 0;
+
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    203deg,
+    rgba(131, 58, 180, 0.9) 0%,
+    rgba(253, 29, 29, 0.9) 50%,
+    rgba(252, 176, 69, 0.9) 100%
+  );
+}
+
+.div-select{
+  &:hover{
+    background-color: rgb(252,252,252);
+  }
+ 
+}
+
+.message-div{
+  height: 500px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  
+}
+
+.message-div::-webkit-scrollbar{
+  display: none;
+}
+
+.addmessage-div::placeholder{
+  color:rgba(0,0,0,0.5);
+  border-bottom: 1px;
+  padding: 2px;
+}
+
+.info-text{
+  color:rgba(0,0,0,0.5);
+  text-align: center;
+ margin-bottom: 0.5rem;
+}
+
+.smile-div:focus{
+  box-shadow: none;
+}
+
+.reaction-div{
+  font-size: 1rem;
+  transition: 0.25s;
+  &:hover{
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  &:focus{
+    text-decoration: none;
+    box-shadow: none;
+  }
+  padding: 0px 1px;
+}
+.pop-reaction{
+  height: 30px;
+}
+
+.moment-div{
+position: relative;
+font-size: 13px;
+
+}
+.add-messages{
+  height:500px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.content-div{
+  position: relative;
+}
+.reactions-div{
+  position: absolute;
+  right: -15px;
+  bottom: -25px;
+  font-size: small;
+}
+
